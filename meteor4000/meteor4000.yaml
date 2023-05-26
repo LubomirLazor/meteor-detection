@@ -1,0 +1,7 @@
+train: ../meteor4000/train.txt  # train images (relative to 'path')
+val: ../meteor4000/val.txt  # val images (relative to 'path')
+test: ../meteor4000/test.txt # test images (relative to 'path')
+
+nc: 2
+
+names: ['meteor', 'satellite']
